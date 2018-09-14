@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logo -Reportes</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!--mis reglas cSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--encabezado contiene Navbar-->
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <!--Mostrar Logo-->
+                    <a href="../index.html" class="brand-logo center"><i class=" large material-icons">business</i>mi
+                        empresa</a>
+                    <!--mobile Collapse-->
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <!--secciones-->
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="../index.html"><i class="medium material-icons left">home</i>Home</a></li>
+                        <li><a href="login.html"><i class="medium material-icons left">account_box</i>Registrarse</a></li>
+                        <li><a href="reporte.html"><i class="medium material-icons left">event_note</i>Reportes</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="../index.html"><i class="small material-icons left">home</i>Home</a></li>
+            <li><a href="login.html"><i class="small material-icons left">account_box</i>login | Registrarse</a></li>
+            <li><a href="reporte.html"><i class="small material-icons left">event_note</i>Reportes</a></li>
+        </ul>
+    </header>
+    <!--contenido-->
+    <main>
+        <section>
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <h1 class="grey-text center-align trans">Reportes Diarios <i class="fas fa-boxes fa-2x"></i></h1>
+                        </div>
+                    </div>
+                    <!--tabla de reporte Diarios-->
+                    <div class="row">
+                        <div class="col s12 m10">
+                            <table class="highlight responsive-table">
+                                <thead>
+                                    <tr>
+                                        <th>Hora / Día</th>
+                                        <th>Nombre Documento</th>
+                                        <th>Observaciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>8:00 am - 17/08/2018 </td>
+                                        <td><a href="resultados.html" class="tooltipped" data-position="top" data-tooltip="ver archivo Excel">Trabajos del Medio dia</a></td>
+                                        <td>No hay Observaciones</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8:00 am - 17/08/2018 </td>
+                                        <td><a href="resultados.html" class="tooltipped" data-position="top" data-tooltip="ver archivo Excel">Trabajos del Medio dia</a></td>
+                                        <td>No hay Observaciones</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8:00 am - 17/08/2018 </td>
+                                        <td><a href="resultados.html" class="tooltipped" data-position="top" data-tooltip="ver archivo Excel">Trabajos del Medio dia</a></td>
+                                        <td>No hay Observaciones</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th class="center-align" colspan="2">Resultados</th>
+                                        <th class="center-align">3</th>
+                                    </tr>
+
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="col s12 m2">
+                            <h5 class="grey-text text-darken-2 center-align">
+                                <Strong>Indicaciones:</Strong>
+                            </h5>
+                            <p class="justify">
+                                En la siguiente tabla muestra reportes diarios con info general
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--boton flotante-->
+        <div class="fixed-action-btn">
+            <a id="menu" class="btn-floating btn-large cyan pulse" onclick="$('.tap-target').tapTarget('open')">
+                <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+                <li><a class="btn-floating red tooltipped" data-position="left" data-tooltip="Reporte Diarios" ><i class="material-icons">insert_chart</i></a></li>
+                <li><a href="addInform.html" class="btn-floating green tooltipped" data-position="left" data-tooltip="Añadir nuevo Reporte"><i class="material-icons">publish</i></a></li>
+            </ul>
+        </div>
+        <!--uso del boton-->
+        <div class="tap-target cyan" data-target="menu">
+            <div class="tap-target-content">
+                <h5>Publicar un Reporte nuevo</h5>
+                <p>Selecciona lo que deseas realizar</p>
+            </div>
+        </div>
+    </main>
+    <!--pie de pagina-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Logo<i></i></h5>
+                    <p class="white-text"><i></i>Contactanos: <a href="mailto:alexandermartsw@gmail.com">Wilber Tobar</a>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda deleniti fugiat et ducimus,
+                        corporis odio nulla magnam quos dolores incidunt sapiente animi molestiae excepturi? Mollitia
+                        amet suscipit officia ut incidunt!
+                    </p>
+                </div>
+                <div class="col l4 offset-12 s12">
+                    <h5>Redes Sociales</h5>
+                    <ul>
+                        <li>
+                            <a href=""><span style="font-size: 3em; color: whitesmoke;">
+                                    <i class="fab fa-facebook-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <a href=""><span style="font-size: 3em; color: whitesmoke;">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </span>
+                                </a>
+                            </a></li>
+                        <li><a href=""><a href=""><span style="font-size: 3em; color: whitesmoke;">
+                                        <i class="fab fa-instagram"></i>
+                                    </span>
+                                </a></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--Derechos Reservados-->
+        <div class="footer-copyright">
+            <div class="container">
+                <i class="material-icons">copyright</i> 2018 Copyright Wilber Tobar
+            </div>
+        </div>
+    </footer>
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+
+        /*boton flotante con opciones*/
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems);
+        });
+
+        /*activar boton oculto JQUERY*/
+        $(document).ready(function () {
+            $('.tap-target').tapTarget();
+        });
+        /*activar tooltips*/
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.tooltipped');
+            var instances = M.Tooltip.init(elems);
+        });
+    </script>
+</body>
+
+</html>

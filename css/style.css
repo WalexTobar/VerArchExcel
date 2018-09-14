@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+}
+/*animacion*/
+.trans{
+    animation: efecto 4s infinite;
+}
+
+@keyframes efecto{
+    0%{
+        opacity: 0.10;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.50;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1.00;;
+    }
+
+}

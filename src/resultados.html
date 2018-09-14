@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logo - infoDe</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!--mis reglas cSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--encabezado contiene Navbar-->
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <!--Mostrar Logo-->
+                    <a href="../index.html" class="brand-logo center"><i class=" large material-icons">business</i>mi empresa</a>
+                    <!--mobile Collapse-->
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <!--secciones-->
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="../index.html"><i class="medium material-icons left">home</i>Home</a></li>
+                        <li><a href="login.html"><i class="medium material-icons left">account_box</i>Registrarse</a></li>
+                        <li><a href="reporte.html"><i class="medium material-icons left">event_note</i>Reportes</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="../index.html"><i class="small material-icons left">home</i>Home</a></li>
+            <li><a href="login.html"><i class="small material-icons left">account_box</i>login | Registrarse</a></li>
+            <li><a href="reporte.html"><i class="small material-icons left">event_note</i>Reportes</a></li>
+        </ul>
+    </header>
+    <!--contenido-->
+    <main>
+        <section>
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <h1 class="grey-text center-align trans">--Arch Excel-- <i class="far fa-file-excel fa-2x" style="color: #207245;"></i></h1>
+                        </div>
+                    </div>
+                    <!--Usar libreria para visualizar Arch de Excel-->
+                    <div class="row">
+                        <div class="col s12">
+                            <!--contenido-->
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <!--pie de pagina-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Logo<i></i></h5>
+                    <p class="white-text"><i></i>Contactanos: <a href="mailto:alexandermartsw@gmail.com">Wilber Tobar</a>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda deleniti fugiat et ducimus,
+                        corporis odio nulla magnam quos dolores incidunt sapiente animi molestiae excepturi? Mollitia
+                        amet suscipit officia ut incidunt!
+                    </p>
+                </div>
+                <div class="col l4 offset-12 s12">
+                    <h5>Redes Sociales</h5>
+                    <ul>
+                        <li>
+                            <a href=""><span style="font-size: 3em; color: whitesmoke;">
+                                    <i class="fab fa-facebook-square"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="">
+                                <a href=""><span style="font-size: 3em; color: whitesmoke;">
+                                        <i class="fab fa-twitter-square"></i>
+                                    </span>
+                                </a>
+                            </a></li>
+                        <li><a href=""><a href=""><span style="font-size: 3em; color: whitesmoke;">
+                                        <i class="fab fa-instagram"></i>
+                                    </span>
+                                </a></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--Derechos Reservados-->
+        <div class="footer-copyright">
+            <div class="container">
+                <i class="material-icons">copyright</i> 2018 Copyright Wilber Tobar
+            </div>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+
+</html>
